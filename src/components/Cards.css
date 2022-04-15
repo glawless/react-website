@@ -25,7 +25,7 @@
     margin-bottom: 24px;
   }
   
-  .cards__item {
+  .cards__item { 
     display: flex;
     flex: 1;
     margin: 0 1rem;
@@ -36,6 +36,7 @@
     display: flex;
     flex-flow: column;
     width: 100%;
+    max-width: 10rem;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
@@ -91,6 +92,7 @@
   
   .cards__item__info {
     padding: 20px 30px 30px;
+    height: 7rem;
   }
   
   .cards__item__text {
@@ -102,6 +104,7 @@
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
       width: 84%;
+      height: 7rem;
     }
   }
   
